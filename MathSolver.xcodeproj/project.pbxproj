@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5635C78D2AEF9CFF0033497E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C78C2AEF9CFF0033497E /* AppDelegate.swift */; };
+		5635C7912AEF9CFF0033497E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7902AEF9CFF0033497E /* ViewController.swift */; };
+		5635C7972AEF9CFF0033497E /* MathSolver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7952AEF9CFF0033497E /* MathSolver.xcdatamodeld */; };
+		5635C7992AEF9D010033497E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5635C7982AEF9D010033497E /* Assets.xcassets */; };
+		5635C79C2AEF9D010033497E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5635C79A2AEF9D010033497E /* LaunchScreen.storyboard */; };
+		5635C7A92AEF9E610033497E /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7A82AEF9E610033497E /* OnBoardingVC.swift */; };
+		5635C7AB2AEF9E940033497E /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7AA2AEF9E940033497E /* PaywallVC.swift */; };
+		5635C7AD2AEFA0DB0033497E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7AC2AEFA0DB0033497E /* Strings.swift */; };
+		5635C7AF2AEFA2CD0033497E /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5635C7AE2AEFA2CD0033497E /* ColorAssets.xcassets */; };
+		5635C7B12AEFF5E60033497E /* PaywallStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7B02AEFF5E60033497E /* PaywallStackView.swift */; };
+		56E61D972AF29AE000753B66 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D962AF29AE000753B66 /* NeonSDK */; };
+		56E61D9A2AF29B0A00753B66 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D992AF29B0A00753B66 /* Alamofire */; };
+		56E61D9D2AF29B1D00753B66 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D9C2AF29B1D00753B66 /* CropViewController */; };
+		56E61D9F2AF29B1D00753B66 /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D9E2AF29B1D00753B66 /* TOCropViewController */; };
+		56E61DA22AF2A60000753B66 /* SwiftMath in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61DA12AF2A60000753B66 /* SwiftMath */; };
+		56E73EBE2AF2585400C0EEC4 /* SolutionBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E73EBD2AF2585400C0EEC4 /* SolutionBackgroundView.swift */; };
+		56E73EC02AF279BD00C0EEC4 /* SolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E73EBF2AF279BD00C0EEC4 /* SolutionView.swift */; };
+		56F6B0452AF0FDD100FEF646 /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6B0442AF0FDD100FEF646 /* SolutionViewController.swift */; };
+		56F6B0492AF12AC600FEF646 /* MathpixManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6B0482AF12AC600FEF646 /* MathpixManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5635C7892AEF9CFF0033497E /* MathSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5635C78C2AEF9CFF0033497E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5635C7902AEF9CFF0033497E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5635C7962AEF9CFF0033497E /* MathSolver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathSolver.xcdatamodel; sourceTree = "<group>"; };
+		5635C7982AEF9D010033497E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5635C79B2AEF9D010033497E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5635C79D2AEF9D010033497E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5635C7A82AEF9E610033497E /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		5635C7AA2AEF9E940033497E /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		5635C7AC2AEFA0DB0033497E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		5635C7AE2AEFA2CD0033497E /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		5635C7B02AEFF5E60033497E /* PaywallStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallStackView.swift; sourceTree = "<group>"; };
+		56E73EBD2AF2585400C0EEC4 /* SolutionBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionBackgroundView.swift; sourceTree = "<group>"; };
+		56E73EBF2AF279BD00C0EEC4 /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
+		56F6B0442AF0FDD100FEF646 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
+		56F6B0482AF12AC600FEF646 /* MathpixManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathpixManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5635C7862AEF9CFF0033497E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E61D9A2AF29B0A00753B66 /* Alamofire in Frameworks */,
+				56E61D9F2AF29B1D00753B66 /* TOCropViewController in Frameworks */,
+				56E61DA22AF2A60000753B66 /* SwiftMath in Frameworks */,
+				56E61D9D2AF29B1D00753B66 /* CropViewController in Frameworks */,
+				56E61D972AF29AE000753B66 /* NeonSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5635C7802AEF9CFF0033497E = {
+			isa = PBXGroup;
+			children = (
+				5635C78B2AEF9CFF0033497E /* MathSolver */,
+				5635C78A2AEF9CFF0033497E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5635C78A2AEF9CFF0033497E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5635C7892AEF9CFF0033497E /* MathSolver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5635C78B2AEF9CFF0033497E /* MathSolver */ = {
+			isa = PBXGroup;
+			children = (
+				56F6B0472AF12A7F00FEF646 /* Management */,
+				56F6B0462AF12A5100FEF646 /* Resources */,
+				56F6B0432AF0FCD700FEF646 /* Model */,
+				56F6B0422AF0FCC500FEF646 /* View */,
+				56F6B0412AF0FCB200FEF646 /* Controller */,
+				5635C78C2AEF9CFF0033497E /* AppDelegate.swift */,
+				5635C79A2AEF9D010033497E /* LaunchScreen.storyboard */,
+				5635C79D2AEF9D010033497E /* Info.plist */,
+			);
+			path = MathSolver;
+			sourceTree = "<group>";
+		};
+		56F6B0412AF0FCB200FEF646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5635C7AA2AEF9E940033497E /* PaywallVC.swift */,
+				5635C7A82AEF9E610033497E /* OnBoardingVC.swift */,
+				5635C7902AEF9CFF0033497E /* ViewController.swift */,
+				56F6B0442AF0FDD100FEF646 /* SolutionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56F6B0422AF0FCC500FEF646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5635C7B02AEFF5E60033497E /* PaywallStackView.swift */,
+				56E73EBD2AF2585400C0EEC4 /* SolutionBackgroundView.swift */,
+				56E73EBF2AF279BD00C0EEC4 /* SolutionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56F6B0432AF0FCD700FEF646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56F6B0462AF12A5100FEF646 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5635C7982AEF9D010033497E /* Assets.xcassets */,
+				5635C7952AEF9CFF0033497E /* MathSolver.xcdatamodeld */,
+				5635C7AC2AEFA0DB0033497E /* Strings.swift */,
+				5635C7AE2AEFA2CD0033497E /* ColorAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56F6B0472AF12A7F00FEF646 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				56F6B0482AF12AC600FEF646 /* MathpixManager.swift */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5635C7882AEF9CFF0033497E /* MathSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5635C7A02AEF9D010033497E /* Build configuration list for PBXNativeTarget "MathSolver" */;
+			buildPhases = (
+				5635C7852AEF9CFF0033497E /* Sources */,
+				5635C7862AEF9CFF0033497E /* Frameworks */,
+				5635C7872AEF9CFF0033497E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathSolver;
+			packageProductDependencies = (
+				56E61D962AF29AE000753B66 /* NeonSDK */,
+				56E61D992AF29B0A00753B66 /* Alamofire */,
+				56E61D9C2AF29B1D00753B66 /* CropViewController */,
+				56E61D9E2AF29B1D00753B66 /* TOCropViewController */,
+				56E61DA12AF2A60000753B66 /* SwiftMath */,
+			);
+			productName = MathSolver;
+			productReference = 5635C7892AEF9CFF0033497E /* MathSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5635C7812AEF9CFF0033497E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5635C7882AEF9CFF0033497E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5635C7842AEF9CFF0033497E /* Build configuration list for PBXProject "MathSolver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5635C7802AEF9CFF0033497E;
+			packageReferences = (
+				56E61D952AF29AE000753B66 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+				56E61D982AF29B0A00753B66 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				56E61D9B2AF29B1C00753B66 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+				56E61DA02AF2A60000753B66 /* XCRemoteSwiftPackageReference "SwiftMath" */,
+			);
+			productRefGroup = 5635C78A2AEF9CFF0033497E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5635C7882AEF9CFF0033497E /* MathSolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5635C7872AEF9CFF0033497E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5635C79C2AEF9D010033497E /* LaunchScreen.storyboard in Resources */,
+				5635C7AF2AEFA2CD0033497E /* ColorAssets.xcassets in Resources */,
+				5635C7992AEF9D010033497E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5635C7852AEF9CFF0033497E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5635C7972AEF9CFF0033497E /* MathSolver.xcdatamodeld in Sources */,
+				56E73EBE2AF2585400C0EEC4 /* SolutionBackgroundView.swift in Sources */,
+				5635C7AB2AEF9E940033497E /* PaywallVC.swift in Sources */,
+				5635C7A92AEF9E610033497E /* OnBoardingVC.swift in Sources */,
+				56F6B0452AF0FDD100FEF646 /* SolutionViewController.swift in Sources */,
+				5635C7912AEF9CFF0033497E /* ViewController.swift in Sources */,
+				56E73EC02AF279BD00C0EEC4 /* SolutionView.swift in Sources */,
+				5635C7AD2AEFA0DB0033497E /* Strings.swift in Sources */,
+				5635C78D2AEF9CFF0033497E /* AppDelegate.swift in Sources */,
+				5635C7B12AEFF5E60033497E /* PaywallStackView.swift in Sources */,
+				56F6B0492AF12AC600FEF646 /* MathpixManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5635C79A2AEF9D010033497E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5635C79B2AEF9D010033497E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5635C79E2AEF9D010033497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5635C79F2AEF9D010033497E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5635C7A12AEF9D010033497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RF37B9GK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MathSolver/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos to upload a picture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysemacam.MathSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5635C7A22AEF9D010033497E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RF37B9GK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MathSolver/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos to upload a picture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysemacam.MathSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5635C7842AEF9CFF0033497E /* Build configuration list for PBXProject "MathSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5635C79E2AEF9D010033497E /* Debug */,
+				5635C79F2AEF9D010033497E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5635C7A02AEF9D010033497E /* Build configuration list for PBXNativeTarget "MathSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5635C7A12AEF9D010033497E /* Debug */,
+				5635C7A22AEF9D010033497E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56E61D952AF29AE000753B66 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		56E61D982AF29B0A00753B66 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		56E61D9B2AF29B1C00753B66 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		56E61DA02AF2A60000753B66 /* XCRemoteSwiftPackageReference "SwiftMath" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mgriebling/SwiftMath.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56E61D962AF29AE000753B66 /* NeonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56E61D952AF29AE000753B66 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			productName = NeonSDK;
+		};
+		56E61D992AF29B0A00753B66 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56E61D982AF29B0A00753B66 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		56E61D9C2AF29B1D00753B66 /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56E61D9B2AF29B1C00753B66 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		56E61D9E2AF29B1D00753B66 /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56E61D9B2AF29B1C00753B66 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+		56E61DA12AF2A60000753B66 /* SwiftMath */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56E61DA02AF2A60000753B66 /* XCRemoteSwiftPackageReference "SwiftMath" */;
+			productName = SwiftMath;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		5635C7952AEF9CFF0033497E /* MathSolver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5635C7962AEF9CFF0033497E /* MathSolver.xcdatamodel */,
+			);
+			currentVersion = 5635C7962AEF9CFF0033497E /* MathSolver.xcdatamodel */;
+			path = MathSolver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5635C7812AEF9CFF0033497E /* Project object */;
+}
