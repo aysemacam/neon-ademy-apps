@@ -17,6 +17,8 @@
 		5635C7AD2AEFA0DB0033497E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7AC2AEFA0DB0033497E /* Strings.swift */; };
 		5635C7AF2AEFA2CD0033497E /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5635C7AE2AEFA2CD0033497E /* ColorAssets.xcassets */; };
 		5635C7B12AEFF5E60033497E /* PaywallStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7B02AEFF5E60033497E /* PaywallStackView.swift */; };
+		56B622D72AF3A65400D18940 /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B622D62AF3A65400D18940 /* OpenAIManager.swift */; };
+		56B622DA2AF3A74A00D18940 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 56B622D92AF3A74A00D18940 /* OpenAI */; };
 		56E61D972AF29AE000753B66 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D962AF29AE000753B66 /* NeonSDK */; };
 		56E61D9A2AF29B0A00753B66 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D992AF29B0A00753B66 /* Alamofire */; };
 		56E61D9D2AF29B1D00753B66 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D9C2AF29B1D00753B66 /* CropViewController */; };
@@ -41,6 +43,7 @@
 		5635C7AC2AEFA0DB0033497E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		5635C7AE2AEFA2CD0033497E /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 		5635C7B02AEFF5E60033497E /* PaywallStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallStackView.swift; sourceTree = "<group>"; };
+		56B622D62AF3A65400D18940 /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
 		56E73EBD2AF2585400C0EEC4 /* SolutionBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionBackgroundView.swift; sourceTree = "<group>"; };
 		56E73EBF2AF279BD00C0EEC4 /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
 		56F6B0442AF0FDD100FEF646 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 				56E61D9F2AF29B1D00753B66 /* TOCropViewController in Frameworks */,
 				56E61DA22AF2A60000753B66 /* SwiftMath in Frameworks */,
 				56E61D9D2AF29B1D00753B66 /* CropViewController in Frameworks */,
+				56B622DA2AF3A74A00D18940 /* OpenAI in Frameworks */,
 				56E61D972AF29AE000753B66 /* NeonSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				56F6B0482AF12AC600FEF646 /* MathpixManager.swift */,
+				56B622D62AF3A65400D18940 /* OpenAIManager.swift */,
 			);
 			path = Management;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				56E61D9C2AF29B1D00753B66 /* CropViewController */,
 				56E61D9E2AF29B1D00753B66 /* TOCropViewController */,
 				56E61DA12AF2A60000753B66 /* SwiftMath */,
+				56B622D92AF3A74A00D18940 /* OpenAI */,
 			);
 			productName = MathSolver;
 			productReference = 5635C7892AEF9CFF0033497E /* MathSolver.app */;
@@ -197,6 +203,7 @@
 				56E61D982AF29B0A00753B66 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				56E61D9B2AF29B1C00753B66 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
 				56E61DA02AF2A60000753B66 /* XCRemoteSwiftPackageReference "SwiftMath" */,
+				56B622D82AF3A74A00D18940 /* XCRemoteSwiftPackageReference "OpenAI" */,
 			);
 			productRefGroup = 5635C78A2AEF9CFF0033497E /* Products */;
 			projectDirPath = "";
@@ -226,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5635C7972AEF9CFF0033497E /* MathSolver.xcdatamodeld in Sources */,
+				56B622D72AF3A65400D18940 /* OpenAIManager.swift in Sources */,
 				56E73EBE2AF2585400C0EEC4 /* SolutionBackgroundView.swift in Sources */,
 				5635C7AB2AEF9E940033497E /* PaywallVC.swift in Sources */,
 				5635C7A92AEF9E610033497E /* OnBoardingVC.swift in Sources */,
@@ -449,6 +457,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		56B622D82AF3A74A00D18940 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
 		56E61D952AF29AE000753B66 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
@@ -484,6 +500,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		56B622D92AF3A74A00D18940 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56B622D82AF3A74A00D18940 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
 		56E61D962AF29AE000753B66 /* NeonSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 56E61D952AF29AE000753B66 /* XCRemoteSwiftPackageReference "neon-sdk" */;

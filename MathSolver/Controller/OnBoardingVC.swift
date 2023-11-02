@@ -100,7 +100,7 @@ class OnBoardingVC: UIViewController {
     @objc func continueButtonTapped() {
         updateUIBasedOnIndex()
     }
-
+    
     func updateUIBasedOnIndex() {
         currentImageIndex = (currentImageIndex + 1) % imageArray.count
         oBImageView.image = UIImage(named: imageArray[currentImageIndex])
@@ -115,6 +115,7 @@ class OnBoardingVC: UIViewController {
             let vc = PaywallVC()
             vc.modalPresentationStyle = .fullScreen
            present(vc, animated: true)
+            Neon.onboardingCompleted()
         } else {
             oBText.isHidden = false
             pageControl.isHidden = false
