@@ -11,9 +11,9 @@ struct MathpixResponse: Decodable {
     let error: String?
 }
 
-class ApiService {
+class MathpixApiService {
     
-    static let shared = ApiService()
+    static let shared = MathpixApiService()
     private let apiKey = "56e83bd220dc8fea9c65d7e4e86c84cb416df984dcb75fd1b560380c80fa17bf"
     private let apiUrlString = "https://api.mathpix.com/v3/latex"
     private let appID = "kv_sharpforksapps_com_797bd6_b5ecc4"

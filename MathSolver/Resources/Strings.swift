@@ -22,16 +22,11 @@ class AppStrings{
     static let solutionBackgroundImg2 = "solution_background_image2"
     static let plusImage = "plus_image"
 
-    
-
-    
-
     static let buttonBackgroundColor = "button_background_color"
     static let onBoarding1Background = "on_boarding1_background"
     static let paywallViewBackground = "paywall_view_background"
+    static let solvingStepsShadow = "solving_steps_vc_background"
 
-    
-    
     static let oBTitle1 = "Welcome to\nMath Solver"
     static let oBTitle2 = "Capture"
     static let oBTitle3 = "Solve"
@@ -55,5 +50,5 @@ class AppStrings{
     static let cancel = "Cancel"
     static let actionTitle1 = "Take a Picture"
     static let actionTitle2 = "Upload from Photos"
-    
+    static let apiKey = "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"
 }

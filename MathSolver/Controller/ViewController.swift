@@ -147,7 +147,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
         DispatchQueue.main.async {
-            ApiService.shared.sendImageToMathpix(image: image) { [weak self] result in
+            MathpixApiService.shared.sendImageToMathpix(image: image) { [weak self] result in
                 cropViewController.dismiss(animated: true) {
                     if let latexResult = result {
                         print("Success: \(latexResult)")

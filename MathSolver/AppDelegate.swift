@@ -19,7 +19,7 @@ var window: UIWindow?
         Neon.configure(
             window: &window,
             onboardingVC: OnBoardingVC(),
-            paywallVC: PaywallVC(),
+            paywallVC: SolvingStepsVC(),
             homeVC: ViewController())
         return true
     }

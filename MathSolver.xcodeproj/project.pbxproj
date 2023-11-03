@@ -19,6 +19,9 @@
 		5635C7B12AEFF5E60033497E /* PaywallStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C7B02AEFF5E60033497E /* PaywallStackView.swift */; };
 		56B622D72AF3A65400D18940 /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B622D62AF3A65400D18940 /* OpenAIManager.swift */; };
 		56B622DA2AF3A74A00D18940 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 56B622D92AF3A74A00D18940 /* OpenAI */; };
+		56CBBB5C2AF4EF8B00145884 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 56CBBB5B2AF4EF8B00145884 /* OpenAISwift */; };
+		56CBBB5E2AF53CE900145884 /* SolvingStepsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CBBB5D2AF53CE900145884 /* SolvingStepsVC.swift */; };
+		56CBBB602AF53F1300145884 /* SolvingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CBBB5F2AF53F1300145884 /* SolvingStepView.swift */; };
 		56E61D972AF29AE000753B66 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D962AF29AE000753B66 /* NeonSDK */; };
 		56E61D9A2AF29B0A00753B66 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D992AF29B0A00753B66 /* Alamofire */; };
 		56E61D9D2AF29B1D00753B66 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 56E61D9C2AF29B1D00753B66 /* CropViewController */; };
@@ -44,6 +47,8 @@
 		5635C7AE2AEFA2CD0033497E /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 		5635C7B02AEFF5E60033497E /* PaywallStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallStackView.swift; sourceTree = "<group>"; };
 		56B622D62AF3A65400D18940 /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
+		56CBBB5D2AF53CE900145884 /* SolvingStepsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvingStepsVC.swift; sourceTree = "<group>"; };
+		56CBBB5F2AF53F1300145884 /* SolvingStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvingStepView.swift; sourceTree = "<group>"; };
 		56E73EBD2AF2585400C0EEC4 /* SolutionBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionBackgroundView.swift; sourceTree = "<group>"; };
 		56E73EBF2AF279BD00C0EEC4 /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
 		56F6B0442AF0FDD100FEF646 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 				56E61D9D2AF29B1D00753B66 /* CropViewController in Frameworks */,
 				56B622DA2AF3A74A00D18940 /* OpenAI in Frameworks */,
 				56E61D972AF29AE000753B66 /* NeonSDK in Frameworks */,
+				56CBBB5C2AF4EF8B00145884 /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +111,7 @@
 				5635C7A82AEF9E610033497E /* OnBoardingVC.swift */,
 				5635C7902AEF9CFF0033497E /* ViewController.swift */,
 				56F6B0442AF0FDD100FEF646 /* SolutionViewController.swift */,
+				56CBBB5D2AF53CE900145884 /* SolvingStepsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,6 +122,7 @@
 				5635C7B02AEFF5E60033497E /* PaywallStackView.swift */,
 				56E73EBD2AF2585400C0EEC4 /* SolutionBackgroundView.swift */,
 				56E73EBF2AF279BD00C0EEC4 /* SolutionView.swift */,
+				56CBBB5F2AF53F1300145884 /* SolvingStepView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 				56E61D9E2AF29B1D00753B66 /* TOCropViewController */,
 				56E61DA12AF2A60000753B66 /* SwiftMath */,
 				56B622D92AF3A74A00D18940 /* OpenAI */,
+				56CBBB5B2AF4EF8B00145884 /* OpenAISwift */,
 			);
 			productName = MathSolver;
 			productReference = 5635C7892AEF9CFF0033497E /* MathSolver.app */;
@@ -204,6 +213,7 @@
 				56E61D9B2AF29B1C00753B66 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
 				56E61DA02AF2A60000753B66 /* XCRemoteSwiftPackageReference "SwiftMath" */,
 				56B622D82AF3A74A00D18940 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				56CBBB5A2AF4EF8B00145884 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
 			);
 			productRefGroup = 5635C78A2AEF9CFF0033497E /* Products */;
 			projectDirPath = "";
@@ -239,9 +249,11 @@
 				5635C7A92AEF9E610033497E /* OnBoardingVC.swift in Sources */,
 				56F6B0452AF0FDD100FEF646 /* SolutionViewController.swift in Sources */,
 				5635C7912AEF9CFF0033497E /* ViewController.swift in Sources */,
+				56CBBB602AF53F1300145884 /* SolvingStepView.swift in Sources */,
 				56E73EC02AF279BD00C0EEC4 /* SolutionView.swift in Sources */,
 				5635C7AD2AEFA0DB0033497E /* Strings.swift in Sources */,
 				5635C78D2AEF9CFF0033497E /* AppDelegate.swift in Sources */,
+				56CBBB5E2AF53CE900145884 /* SolvingStepsVC.swift in Sources */,
 				5635C7B12AEFF5E60033497E /* PaywallStackView.swift in Sources */,
 				56F6B0492AF12AC600FEF646 /* MathpixManager.swift in Sources */,
 			);
@@ -465,6 +477,14 @@
 				minimumVersion = 0.2.4;
 			};
 		};
+		56CBBB5A2AF4EF8B00145884 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		56E61D952AF29AE000753B66 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
@@ -504,6 +524,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 56B622D82AF3A74A00D18940 /* XCRemoteSwiftPackageReference "OpenAI" */;
 			productName = OpenAI;
+		};
+		56CBBB5B2AF4EF8B00145884 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56CBBB5A2AF4EF8B00145884 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
 		};
 		56E61D962AF29AE000753B66 /* NeonSDK */ = {
 			isa = XCSwiftPackageProductDependency;
